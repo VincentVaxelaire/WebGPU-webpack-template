@@ -24,3 +24,5 @@ npm run build
 4. The _./src/script.ts_ file will be your main file. You can write your entire TypeScript project in it or use the _./src/TS/_ file to put all your _Class_ in it and export it to the _./src/script.ts_. The bundle does not contain any configuration to split the _bundle.js_ into several parts.
 5. All your assets (images, fonts, etc.) should be placed in the _./static_ file. Note that you will have to declare all your other assets in the _./bundler/webpack.common.js_ file in the _rules_ object in the same way as the images.
 6. Run the _npm run build_ command to automatically create a _./dist_ folder containing your entire project (HTML, CSS, all your assets and TypeScript transpiled in JavaScript) in minify format. Once this command is executed your project is ready for the web and can be directly deployed via the web host of your choice.
+
+You can learn the basics of WebGPU on the [Practical Programming with Dr. Xu](https://www.youtube.com/watch?v=QWh968pmsbg&list=PL_UrKDEhALdKh0118flOjuAnVIGKFUJXN&index=2) channel
